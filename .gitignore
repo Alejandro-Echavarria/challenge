@@ -1,0 +1,11 @@
+# Ignore automatic generate files
+*__pycache__/
+*.pyc
+data/
+
+# Ignore virtual environment files
+myenv/
+
+# Ignore local configuration
+.env
+.vscode/
