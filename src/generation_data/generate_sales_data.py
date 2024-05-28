@@ -2,7 +2,6 @@ import pandas as pd
 import random as rd
 from datetime import datetime, timedelta
 
-# Se debe instalar pip, pandas, openpyxl
 def generate_sales_data(month, year, number_records):
     try:
         if not 1 <= month <= 12:
