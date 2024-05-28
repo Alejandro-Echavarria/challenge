@@ -33,7 +33,7 @@ def generate_sales_data(month, year, number_records):
             customer_id = rd.randint(100, 999)
             purchase_date = random_date(start_date, end_date)
             sale_amount = round(rd.uniform(10.0, 1000.0), 2)
-            product_category = rd.choice(['Electronics', 'Clothing', 'Groceries', 'Furniture'])
+            product_category = rd.choice(['Alpha FWD', 'Alpha Plus', 'Alpha Margen', 'Alpha Mutuo'])
 
             data.append([transaction_id, customer_id, purchase_date, sale_amount, product_category])
 
