@@ -11,15 +11,18 @@ cd challenge
 ## Crear y activar el entorno virtual
 Para mantener las dependencias del proyecto aisladas, crea un entorno virtual llamado myenv.
 
-### En Windows
+### Crear el entorno virtual
 ```sh
 python -m venv myenv
+```
+
+### Activar entorno virtual en Windows
+```sh
 myenv\Scripts\activate
 ```
 
-### En macOS y Linux
+### Activar entorno virtual en macOS y Linux
 ```sh
-python -m venv myenv
 source myenv/bin/activate
 ```
 

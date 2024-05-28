@@ -19,5 +19,5 @@ def create_table(table_name):
     except Exception as e:
         print(f"An error occurred while creating the table: {e}")
     finally:
-        # Cerrar la conexión a la base de datos
+        # Close the database connection
         close(connection)
