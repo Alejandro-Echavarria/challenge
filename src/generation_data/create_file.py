@@ -1,9 +1,8 @@
-import os
+from create_directory import create as create_directory
 
 def create_file(df, name, path, type, sep = ','):
     try:
-        if not os.path.exists(f'data/{path}'):
-            os.makedirs(f'data/{path}')
+        create_directory(f'data/{path}')
 
         if type == 'csv':
             return df.to_csv(f'data/{path}/{name}.csv', sep = sep, index = False)
