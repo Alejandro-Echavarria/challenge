@@ -49,12 +49,12 @@ challenge
 ├── src
 │   ├── database
 │   │   ├── connection_sqlite3.py
-│   │   ├── operations.py
+│   │   └── operations.py
 │   └── generation_data
-│       ├── create_directory.py
-│       ├── create_file.py
-│       └── generate_sales_data.py
-│   ├── sales.py
+│   │   ├── create_directory.py
+│   │   ├── create_file.py
+│   │   ├── generate_sales_data.py
+│   │   └── sales.py
 │   └── main.py
 ├── .env
 ├── .env.example
