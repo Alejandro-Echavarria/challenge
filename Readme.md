@@ -128,6 +128,8 @@ Crea el archivo `.env`. Puedes copiar el archivo `.env.example` y renombrarlo. D
 ```.env
 DB_PATH='data/sqlite/'
 CONNECTION_STRING='data/sqlite/challenge.sqlite3'
+
+DATA_PATH='data/excel/'
 ```
 
 #### Ejecutar el archivo `main.py`
